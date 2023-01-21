@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8" />
+<title>Bienvenidos magos</title>
+<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+</head>
+
+<body>
+
+<main>
+   <h1>¿A qué casa de Hogwarts perteneces?</h1>
+   <div class="image">
+   <img src="img/escudo.jfif">
+   </div>
+   <form method="post" action="casas.php">
+    <div class="center">
+   <fieldset>
+      <legend>Datos del mago</legend>
+      <label class =form-row for="name">Nombre</label>
+      <input type="text" name="name" id="name">
+      <label class =form-row for="age">Edad</label>
+      <input type="number" name="age" id="age" min=8 max=100>
+      <label class =form-row>Personaje favorito</label>
+      <select name="personaje">
+      <option value= "">--Selecciona tu personaje favorito--</option>
+      <option value="hermione">Hermione Granger</option>
+      <option value="harry">Harry Potter</option>
+      <option value="ron">Ron Weasley</option>
+      <option value="Luna Lovegood">Luna Lovegood</option>
+      <option value="Draco Malfoy">Draco Malfoy</option>
+      <option value="Albus Dumbledore">Albus Dumbledore</option>
+      <option value="Minerva Mcgonagall">Minerva Mcgonagall</option>
+      <option value="Voldemort">Voldemort</option>
+      <option value="Neville Longbottom">Neville Longbottom</option>
+      <option value="Cedric Diggory">Cedric Diggory</option>
+      <option value="Molly Weasley">Molly Weasley</option>
+      <option value="Arthur Weasley">Arthur Weasley</option>
+      <option value="Bill Weasley">Bill Weasley</option>
+      <option value="Charlie Weasley">Charlie Weasley</option>
+      <option value="Fred Weasley">Fred Weasley</option>
+      <option value="George Weasley">George Weasley</option>
+      <option value="Percy Weasley">Percy Weasley</option>
+      <option value="Ginny Weasley">Ginny Weasley</option>
+      <option value="Remus Lupin">Remus Lupin</option>
+      <option value="Sirius Black">Sirius Black</option>
+      <option value="Bellatrix Lestrange">Bellatrix Lestrange</option>
+      <option value="Rubeus Hagrid">Rubeus Hagrid</option>
+      <option value="Dobby">Dobby</option>
+      <option value="Lucius Malfoy">Lucius Malfoy</option>
+      <option value="Alastor Moody">Alastor Moody</option>
+      <option value="Nymphadora Tonks">Nymphadora Tonks</option>
+      <option value="Severus Snape">Severus Snape</option>
+      <option value="Dolores Umbridge">Dolores Umbridge</option>
+      <option value="Sybill Trelawney">Sybill Trelawney</option>
+      <option value="Pomona Sprout">Pomona Sprout</option>
+      <option value="Filius Flitwick">Filius Flitwick</option>
+      <option value="Peter Petigrew">Peter Petigrew</option>
+      <option value="Fleur Delacourt">Fleur Delacourt</option>
+      <option value="Viktor Krum">Viktor Krum</option>
+      <option value="Rita Skeeter">Rita Skeeter</option>
+      <option value="otro">Otro</option>
+      
+      </select>
+
+   </fieldset>
+       </div>
+       <div class="center">
+   <fieldset>
+      <legend>Decisiones</legend>
+      <label class =form-row >¡Rapido! ¡Un hechizo!</label>
+       <div class="list">
+       <ul>
+      <li><input type="radio" name="hechizo" id="expelliarmus" value="expelliarmus"> Expelliarmus</li>
+      <li><input type="radio" name="hechizo" id="patronum" value="patronum"> Expecto Patronum</li>
+      <li><input type="radio" name="hechizo" id="expulso" value="expulso"> Expulso</li>
+      <li><input type="radio" name="hechizo" id="lumos" value="lumos"> Lumos Solem</li>
+       </ul>
+       <ul>
+      <li><input type="radio" name="hechizo" id="protego" value="protego"> Protego</li>
+      <li><input type="radio" name="hechizo" id="imperio" value="imperio"> Imperio</li>
+      <li><input type="radio" name="hechizo" id="revelio" value="revelio"> Revelio</li>
+      <li><input type="radio" name="hechizo" id="riddikulus" value="riddikulus"> Riddikulus</li>
+       </ul>
+       </div>
+      <label class =form-row>Si ves la marca tenebrosa en el cielo, ¿Que haces?</label>
+      <select name="tenebrosa">
+      <option value= "">--¡¡morsmordre!!--</option>
+      <option value="mortifago">Me uno a celebrar con los mortifagos</option>
+      <option value="peligro">Corro hacia el lugar para ver que ha pasado</option>
+      <option value="correr">Salgo corriendo de allí inmediatamente</option>
+      <option value="esconder">Me escondo para evaluar la situación</option>
+      <option value="miedo">Me quedo paralizado por el miedo</option>
+      </select>
+      <label class=form-row> Tiempo libre, ¿a donde vas?</label>
+       <div class="list">
+      <ul>
+      <li><input type="radio" name="libre" id="biblioteca" value="biblioteca"> A la biblioteca</li>
+      <li><input type="radio" name="libre" id="bosque" value="bosque"> Bosque prohibido</li>
+       </ul>
+       <ul>
+      <li><input type="radio" name="libre" id="comun" value="comun"> Sala común</li>
+      <li><input type="radio" name="libre" id="menesteres" value="menesteres"> Sala de los menesteres</li>
+       </ul>
+       </div>
+      <label class =form-row >¿A qué te dedicarías en el mundo mágico?</label>
+      <select name="empleo">
+      <option value= "">--Elige tu profesión--</option>
+      <option value="auror">Auror</option>
+      <option value="magizoologo">Magizoologo</option>
+      <option value="profe">Profesor en Hogwarts</option>
+      <option value="ministro">Ministro de magia</option>
+      <option value="profeta">Reportero en el Profeta</option>
+      <option value="inquisidor">Sumo inquisidor</option>
+      <option value="quidditch">Jugador de quidditch profesional</option>
+      </select>
+   </fieldset>
+       </div>
+   <fieldset>
+    <legend>Hogwarts</legend>
+    <label class =form-row>¿Cual es tu asignatura favorita?</label>
+    <div class="list">
+    <ul>
+      <li><input type="radio" name="asignatura" id="artesoscuras" value="artesoscuras"> Defensa contra las artes oscuras</li>
+   <li><input type="radio" name="asignatura" id="herbologia" value="herbologia"> Herbología</li>
+    <li><input type="radio" name="asignatura" id="encantamientos" value="encantamientos"> Encantamientos</li>
+    <li><input type="radio" name="asignatura" id="pociones" value="pociones"> Pociones</li>
+    <li><input type="radio" name="asignatura" id="criaturas" value="criaturas"> Cuidado de criaturas mágicas</li>
+    <li><input type="radio" name="asignatura" id="volar" value="volar"> Vuelo</li>
+    </ul>
+       <ul>
+       <li><input type="radio" name="asignatura" id="adivinacion" value="adivinacion"> Adivinación</li>
+    <li><input type="radio" name="asignatura" id="historia" value="historia"> Historia de la magia</li>
+    <li><input type="radio" name="asignatura" id="transformaciones" value="transformaciones" > Transformaciones</li>
+   <li><input type="radio" name="asignatura" id="muggles" value="muggles"> Estudios Muggles</li>
+    <li><input type="radio" name="asignatura" id="aritmancia" value="aritmancia"> Aritmancia</li>
+    <li><input type="radio" name="asignatura" id="runas" value="runas"> Runas Antiguas</li>
+    <li><input type="radio" name="asignatura" id="indiferente" value="indiferente"> No he pensado en ello</li>
+       </ul>
+    </div>
+       <label class =form-row>¿Cuál es tu mascota?</label>
+       <div class="list">
+    <ul>
+        <li><input type="radio" name="pet" id="lechuza" value="lechuza"> Lechuza</li>
+        <li><input type="radio" name="pet" id="sapo" value="sapo"> Sapo</li>
+        <li><input type="radio" name="pet" id="gato" value="gato"> Gato</li>
+        <li><input type="radio" name="pet" id="rata" value="rata"> Rata</li>
+        <li><input type="radio" name="pet" id="otro" value="otro"> Otro</li>
+    </ul>
+       </div>
+ </fieldset>
+       <div class="button">
+ <button type="submit" name="submit" value="submit">Enviar</button>
+ <button type="reset" name="reset" value="reset">Obliviate</button>
+       </div>
+ </form>
+</main>
+</div>
+</body>
+</html>

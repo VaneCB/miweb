@@ -1,0 +1,122 @@
+
+main {
+    width: 80%;
+    background-color: #461f50;
+    margin: auto;
+    padding-top: 0.5rem;
+    border-radius: 15%;
+    padding-top: 0.5rem;
+}
+
+h1 {
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+}
+
+form {
+    padding: 1rem;
+    width: 100%;
+}
+
+fieldset legend {
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+    font-family: fantasy;
+}
+
+fieldset {
+    border-radius: 5%;
+    margin: auto;
+    width: 80%;
+}
+
+label {
+    display: block; /* Cada etiqueta la convertimos en bloque para que se coloque siempre arriba */
+    font-family: "Courier New";
+    font-weight: bolder;
+    color: #eef9da;
+    margin: auto;
+}
+
+input {
+    padding: 0 0.25rem 0.25rem;
+}
+
+.botones {
+    width: 50%;
+  display: inline-block;
+
+}
+button {
+    border: .125rem solid #cccccc;
+    border-radius: .5rem; /* Bordes redondeados */
+    box-shadow: 0 0 .25rem #000000;
+    color: #ffffff;
+    font-weight: bold; /* Negrita */
+    margin: 2rem 0;
+    padding: .5rem;
+    text-transform: uppercase; /* Mayúsculas */
+    width: 30%;
+}
+
+button:hover {
+    box-shadow: none; /* Eliminamos la sombra */
+    margin: .125rem 0 0 .125rem; /* Simulamos un desplazamiento */
+    cursor: pointer; /* Cambiamos el cursor */
+}
+
+button[type="submit"] {
+    background-color: #055643;
+    
+}
+
+button[type="reset"] {
+    background-color: #57051f;
+    
+}
+
+.image {
+    width: 30%;
+    margin: auto;
+}
+img {
+    border-radius: 50%;
+    margin: auto;
+    width: 100%;
+}
+
+.button {
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+   list-style: none;
+    font-style: oblique;
+    color: #47b4a5
+}
+
+.center {
+    text-align: center;
+}
+
+.list {
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+.form-row {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://st2.cannypic.com/thumbs/39/392661_632_canny_pic.jpg");
+}

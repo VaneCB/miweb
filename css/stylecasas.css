@@ -1,0 +1,28 @@
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+p{
+    text-align: center;
+    color: white;
+}
+
+.imagen {
+    width: 15%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.casas {
+    width: 30%;
+    margin: auto;
+}
+
+body {
+    background-image: url("https://st4.cannypic.com/thumbs/37/374513_632_canny_pic.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,16 @@
+header .logo {
+    height: 3rem;
+}
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: rgb(29, 53, 68);
+}
+
+footer label {
+    color: white;
+}
